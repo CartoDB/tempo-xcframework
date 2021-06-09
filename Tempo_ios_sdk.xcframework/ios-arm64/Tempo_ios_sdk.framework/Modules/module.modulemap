@@ -1,0 +1,11 @@
+framework module Tempo_ios_sdk {
+  umbrella header "Tempo_ios_sdk.h"
+
+  export *
+  module * { export * }
+}
+
+module Tempo_ios_sdk.Swift {
+    header "Tempo_ios_sdk-Swift.h"
+    requires objc
+}

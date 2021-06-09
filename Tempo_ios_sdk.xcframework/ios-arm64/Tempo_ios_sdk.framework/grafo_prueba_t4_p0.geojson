@@ -1,0 +1,841 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908789363034965,
+                        40.493506291265106,
+                        0
+                    ],
+                    [
+                        -3.5908787825301327,
+                        40.49346052792144,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908789363034965,
+                        40.493506291265106,
+                        0
+                    ],
+                    [
+                        -3.59075853312887,
+                        40.493458520085625,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908787825301327,
+                        40.49346052792144,
+                        0
+                    ],
+                    [
+                        -3.5908779434596103,
+                        40.4934208188739,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908787825301327,
+                        40.49346052792144,
+                        0
+                    ],
+                    [
+                        -3.590931438480859,
+                        40.49342129466333,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908787825301327,
+                        40.49346052792144,
+                        0
+                    ],
+                    [
+                        -3.591027118961405,
+                        40.49341968142707,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908787825301327,
+                        40.49346052792144,
+                        0
+                    ],
+                    [
+                        -3.591026112160052,
+                        40.49336086587762,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.591027118961405,
+                        40.49341968142707,
+                        0
+                    ],
+                    [
+                        -3.5910269213300072,
+                        40.49348219980603,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908779434596103,
+                        40.4934208188739,
+                        0
+                    ],
+                    [
+                        -3.590877334553803,
+                        40.493374494935296,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908779434596103,
+                        40.4934208188739,
+                        0
+                    ],
+                    [
+                        -3.590878273002601,
+                        40.49331766259288,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908779434596103,
+                        40.4934208188739,
+                        0
+                    ],
+                    [
+                        -3.590980536690362,
+                        40.49331711249726,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908779434596103,
+                        40.4934208188739,
+                        0
+                    ],
+                    [
+                        -3.5909804886477987,
+                        40.493331645583964,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908779434596103,
+                        40.4934208188739,
+                        0
+                    ],
+                    [
+                        -3.5910180846043476,
+                        40.49333118327201,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590980536690362,
+                        40.49331711249726,
+                        0
+                    ],
+                    [
+                        -3.5910491181814668,
+                        40.49331651594362,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590878273002601,
+                        40.49331766259288,
+                        0
+                    ],
+                    [
+                        -3.5908777044528484,
+                        40.493299285044,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590878273002601,
+                        40.49331766259288,
+                        0
+                    ],
+                    [
+                        -3.5907673346249998,
+                        40.49330059669103,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590878273002601,
+                        40.49331766259288,
+                        0
+                    ],
+                    [
+                        -3.590766608033359,
+                        40.49332937559144,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590878273002601,
+                        40.49331766259288,
+                        0
+                    ],
+                    [
+                        -3.590712028382415,
+                        40.493329280874015,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908777044528484,
+                        40.493299285044,
+                        0
+                    ],
+                    [
+                        -3.590874825125177,
+                        40.493200118803,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908777044528484,
+                        40.493299285044,
+                        0
+                    ],
+                    [
+                        -3.591047561098787,
+                        40.493202049603624,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908777044528484,
+                        40.493299285044,
+                        0
+                    ],
+                    [
+                        -3.5910486143946407,
+                        40.493267283639675,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590874825125177,
+                        40.493200118803,
+                        0
+                    ],
+                    [
+                        -3.590873310696301,
+                        40.493014765359824,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590874825125177,
+                        40.493200118803,
+                        0
+                    ],
+                    [
+                        -3.591007629772086,
+                        40.49301407854936,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590874825125177,
+                        40.493200118803,
+                        0
+                    ],
+                    [
+                        -3.591007629772086,
+                        40.49301407854936,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590873310696301,
+                        40.493014765359824,
+                        0
+                    ],
+                    [
+                        -3.590700432239796,
+                        40.49301386561997,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590873310696301,
+                        40.493014765359824,
+                        0
+                    ],
+                    [
+                        -3.590872583390933,
+                        40.492900078716985,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590873310696301,
+                        40.493014765359824,
+                        0
+                    ],
+                    [
+                        -3.5909272782455646,
+                        40.49289979906647,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590873310696301,
+                        40.493014765359824,
+                        0
+                    ],
+                    [
+                        -3.5909270025247695,
+                        40.49286836920231,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590872583390933,
+                        40.492900078716985,
+                        0
+                    ],
+                    [
+                        -3.5908725886089954,
+                        40.492833623996475,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.590872583390933,
+                        40.492900078716985,
+                        0
+                    ],
+                    [
+                        -3.5909296358741973,
+                        40.49283333231778,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908725886089954,
+                        40.492833623996475,
+                        0
+                    ],
+                    [
+                        -3.5908736221753403,
+                        40.49266994250844,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908725886089954,
+                        40.492833623996475,
+                        0
+                    ],
+                    [
+                        -3.590678954869689,
+                        40.492670406822995,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908736221753403,
+                        40.49266994250844,
+                        0
+                    ],
+                    [
+                        -3.591043951987362,
+                        40.49266907153978,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908736221753403,
+                        40.49266994250844,
+                        0
+                    ],
+                    [
+                        -3.5910416454126155,
+                        40.49248542839641,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908736221753403,
+                        40.49266994250844,
+                        0
+                    ],
+                    [
+                        -3.59087243357528,
+                        40.49219922538384,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908736221753403,
+                        40.49266994250844,
+                        0
+                    ],
+                    [
+                        -3.5907531783423723,
+                        40.49220057532271,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.5908736221753403,
+                        40.49266994250844,
+                        0
+                    ],
+                    [
+                        -3.590667075294305,
+                        40.492200687182255,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.59087243357528,
+                        40.49219922538384,
+                        0
+                    ],
+                    [
+                        -3.590869215111054,
+                        40.491842982836864,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.59087243357528,
+                        40.49219922538384,
+                        0
+                    ],
+                    [
+                        -3.5910411697476854,
+                        40.49184330796152,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "type": "hallway",
+                "center_id": "999"
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    
+    <title>Open indoor map sdk from search on App| Documentation</title>
+    
+    <link rel="icon"       href="../../favicon.ico" />
+    <link rel="mask-icon"  href="../../favicon.svg" color="#333333" />
+    <link rel='stylesheet' href='../../css/site.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/styles/default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="doc-topic">
+        <nav role="navigation" class="nav documentation-nav">
+  <div class="nav__wrapper">
+    <div class="nav__background"></div>
+    <div class="nav-content">
+      <div class="nav-title">
+        <span class="nav-title-link inactive">Documentation</span>
+      </div>
+      <div class="nav-menu">
+        <div class="nav-menu-tray">
+          <ul class="nav-menu-items hierarchy">
+            
+              <li class="nav-menu-item hierarchy-item">
+                
+                
+                  <a href="index.html" class="item">Tempo_ios_sdk</a>
+                
+              </li>
+            
+              <li class="nav-menu-item hierarchy-item">
+                
+                  <span class="current item">Open indoor map sdk from search on App</span>
+                
+                
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main id="main" role="main" class="main">
+  <div class="topictitle">
+  <span class="eyebrow">Article</span>
+  <h1 class="title">Open indoor map sdk from search on App</h1>
+</div>
+
+  <div class="container content-grid">
+  <div class="description">
+    <div class="abstract content">
+      Open the Indoor Map SDK, with a space selected where the search element can be find, and the search view.
+    </div>
+  </div>
+  
+  <!-- The sidebar once we have one: <div class="summary"></div> -->
+  
+  <div class="primary-content">
+    <div class='content'><h2 id='Overview'>Overview</h2><p>When an user search a product on the App, if he is in a center or maybe if he has selected a preferred center. It must be possible to show the search product on the center map.</p><p>The App should use the next function in orther to communicate with SDK</p><div data-syntax="swift" class="code-listing">
+  <div class="container-general">
+    <pre><code><span class="code-line-container"><span data-line-number="1" class="code-number" style="display: none;"></span><span class="code-line">func openSearchInNavController(_ navController: UINavigationController,</span></span>
+<span class="code-line-container"><span data-line-number="2" class="code-number" style="display: none;"></span><span class="code-line">                                           animated: Bool,</span></span>
+<span class="code-line-container"><span data-line-number="3" class="code-number" style="display: none;"></span><span class="code-line">                                           centerID: Int,</span></span>
+<span class="code-line-container"><span data-line-number="4" class="code-number" style="display: none;"></span><span class="code-line">                                           uneco: String,</span></span>
+<span class="code-line-container"><span data-line-number="5" class="code-number" style="display: none;"></span><span class="code-line">                                           brand: String,</span></span>
+<span class="code-line-container"><span data-line-number="6" class="code-number" style="display: none;"></span><span class="code-line">                                           infoPlace: InfoPlace?)</span></span>
+</code></pre>
+  </div>
+</div>
+<h3 id='Information-to-find-the-properly-space.'>Information to find the properly space.</h3><p>The app should send to SDK the uneco info and the brand in other to find the space.</p><h3 id='Info-to-show-the-user'>Info to show the user</h3><p>To show the user on the map the element searched, at the begging and when route is completed, the App should send the InfoPlace struct.</p><p>InfoPlace properties  will be showed like the next images indicate.</p><p><picture><source media='(prefers-color-scheme: light)' srcset='../../images/info.png 2x'><img alt='Info in map' srcset='../../images/info.png 2x' src='../../images/info.png' width='nil' height='auto' /></source></picture></p><p><picture><source media='(prefers-color-scheme: light)' srcset='../../images/arrive.png 2x'><img alt='arrive screen info' srcset='../../images/arrive.png 2x' src='../../images/arrive.png' width='nil' height='auto' /></source></picture></p></div>
+  </div>
+</div>
+
+  
+  
+  
+</main>
+
+      </div>
+    </div>
+    <footer class="footer"></footer>
+    <script>hljs.highlightAll();</script>
+  </body>
+</html>

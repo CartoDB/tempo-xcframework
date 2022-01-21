@@ -1,6 +1,0 @@
-{
-    "tesselationdistance": 5.0,
-    "pathstraightening": true,
-    "zsensitivity": 1000.0,
-    "min_turnangle": 5.0
-}

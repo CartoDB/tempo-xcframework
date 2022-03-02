@@ -1,0 +1,40 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:gs.geographica.temposdk.callback////PointingToDeclaration/temposdk/gs.geographica.temposdk.callback/index.html
+$dokka.location:gs.geographica.temposdk.callback/CenterBuildingListener///PointingToDeclaration/temposdk/gs.geographica.temposdk.callback/-center-building-listener/index.html
+$dokka.location:gs.geographica.temposdk.callback/CenterBuildingListener/onCenterBuildingNameChange/#kotlin.String#kotlin.String?/PointingToDeclaration/temposdk/gs.geographica.temposdk.callback/-center-building-listener/on-center-building-name-change.html
+$dokka.location:gs.geographica.temposdk.callback/IndoorCentersCallback///PointingToDeclaration/temposdk/gs.geographica.temposdk.callback/-indoor-centers-callback/index.html
+$dokka.location:gs.geographica.temposdk.callback/IndoorCentersCallback/onFailure/#/PointingToDeclaration/temposdk/gs.geographica.temposdk.callback/-indoor-centers-callback/on-failure.html
+$dokka.location:gs.geographica.temposdk.callback/IndoorCentersCallback/onSuccess/#kotlin.collections.Map[kotlin.Int,gs.geographica.temposdk.utils.models.centers.Center]/PointingToDeclaration/temposdk/gs.geographica.temposdk.callback/-indoor-centers-callback/on-success.html
+$dokka.location:gs.geographica.temposdk////PointingToDeclaration/temposdk/gs.geographica.temposdk/index.html
+$dokka.location:gs.geographica.temposdk/InfoPlace///PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/index.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/InfoPlace/#kotlin.String#kotlin.String?#kotlin.String?#android.text.SpannableString?#kotlin.String?#android.graphics.drawable.Drawable?#kotlin.String?#android.graphics.drawable.Drawable?/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/-info-place.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/arriveMessage/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/arrive-message.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/description/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/description.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/formatedInfo/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/formated-info.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/image/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/image.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/info/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/info.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/qrImage/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/qr-image.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/title/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/title.html
+$dokka.location:gs.geographica.temposdk/InfoPlace/urlImage/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-info-place/url-image.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder///PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/index.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/Builder/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/-builder.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/build/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/build.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setCartoLicense/#kotlin.String/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-carto-license.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setEnvirontment/#kotlin.String/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-environtment.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setLocationMode/#gs.geographica.temposdk.utils.LocationMode/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-location-mode.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setOnBuildingChanged/#gs.geographica.temposdk.callback.CenterBuildingListener/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-on-building-changed.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setSitumLicense/#kotlin.String/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-situm-license.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setSitumUser/#kotlin.String/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-situm-user.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setTempoSecret/#kotlin.String/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-tempo-secret.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setUserId/#kotlin.String/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-user-id.html
+$dokka.location:gs.geographica.temposdk/TempoSDK.Builder/setUserType/#kotlin.Int/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-builder/set-user-type.html
+$dokka.location:gs.geographica.temposdk/TempoSDK///PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/index.html
+$dokka.location:gs.geographica.temposdk/TempoSDK/TempoSDK/#android.content.Context/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/-tempo-s-d-k.html
+$dokka.location:gs.geographica.temposdk/TempoSDK/destroy/#/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/destroy.html
+$dokka.location:gs.geographica.temposdk/TempoSDK/drawCenter/#kotlin.Int#kotlin.String#kotlin.String#gs.geographica.temposdk.InfoPlace?/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/draw-center.html
+$dokka.location:gs.geographica.temposdk/TempoSDK/drawCenter/#kotlin.Int/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/draw-center.html
+$dokka.location:gs.geographica.temposdk/TempoSDK/getCentersWithIndoorEnabled/#gs.geographica.temposdk.callback.IndoorCentersCallback/PointingToDeclaration/temposdk/gs.geographica.temposdk/-tempo-s-d-k/get-centers-with-indoor-enabled.html
+gs.geographica.temposdk
+gs.geographica.temposdk.callback
+

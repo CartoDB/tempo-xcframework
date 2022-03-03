@@ -79,7 +79,8 @@ tempoFragment = tempoSDK.Builder()
             .setUserId(eciUserName)
             .setUserType(1)
             .setTempoSecret(TEMPO_API_SECRET)
-            .setSitumLogin(SITUM_EMAIL, SITUM_API_KEY)
+            .setSitumUser(SITUM_EMAIL)
+            .setSitumLicense(SITUM_API_KEY)
             .build()
 
 if (!tempoMapFragment.isAdded) {

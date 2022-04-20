@@ -16,7 +16,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "Tempo_ios_sdk", url: "https://storage.googleapis.com/tempo-xcframework/Tempo_ios_sdk.2.0.2.zip", checksum: "258fd37e21f54430d40b551140c8cc1d3a89f87e86498ab176118e3aa9ec9c51")
+        .binaryTarget(name: "Tempo_ios_sdk", url: "https://storage.googleapis.com/tempo-xcframework/Tempo_ios_sdk.2.0.3.zip", checksum: "2ffe349f66eb98564f762a4a9fafc597fb6968402cf11ea970e39e09a3670a8a")
     ]
 )
 

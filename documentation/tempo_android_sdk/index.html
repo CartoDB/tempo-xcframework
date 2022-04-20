@@ -1,0 +1,125 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>tempo-android-sdk</title>
+<link rel="stylesheet" href="./style.css">
+</HEAD>
+<BODY>
+<a href="./index.html">tempo-android-sdk</a><br/>
+<br/>
+<p>TempoSDK is a library for El Corte Inglés </p>
+<p>TempoSDK is written in Kotlin and provides the location of the user and the offers or related information in the building is located in</p>
+<h2>SDK reference</h2>
+<h2>Installation</h2>
+<h3>JitPack token</h3>
+<p>You are going to need a <a href="https://jitpack.io/">JitPack</a> token. Login with your GitHub account and in the <a href="https://jitpack.io/w/user">user page</a> you can find the token as <code>Access Token</code>.</p>
+<h3>Variables</h3>
+<p>For security reasons, you need to add in your local <code>graddle.properties</code> file (usually in inside the <code>$HOME/.gradle</code> directory) the next variables:</p>
+<ul><li><code>TEMPO_SECRET</code>: Ask CARTO for this token.</li>
+<li><code>CARTO_LICENSE</code>: Ask CARTO for this token.</li>
+<li><code>JITPACK_TOKEN</code>: Follow the <em>JitPack token</em> section above.</li>
+<li><code>SITUM_EMAIL</code>: Ask ECI or CARTO for this token.</li>
+<li><code>SITUM_APIKEY</code>: Ask ECI or CARTO for this token.</li>
+</ul>
+<p>In the <code>AndroidManifest.xml</code> file the variables <code>TEMPO_SECRET</code> and <code>CARTO_LICENSE</code> has to be placed in the right way, inside the application tag:</p>
+<pre><code class="lang-xml">&lt;meta-data
+    android:value="${cartolicense}"
+    android:name="cartolicense" /&gt;
+&lt;meta-data
+    android:value="${temposecret}"
+    android:name="temposecret"/&gt;
+&lt;meta-data
+    android:value="${situmapikey}"
+    android:name="situmapikey"/&gt;
+&lt;meta-data
+    android:value="${situmemail}"
+    android:name="situmemail"/&gt;
+</code></pre>
+<p>Both variables are settled in the app <code>build.gradle</code> file using the manifestPlaceholders inside the <code>defaultConfig</code>:</p>
+<pre><code>manifestPlaceholders = [cartolicense: CARTO_LICENSE, temposecret: TEMPO_SECRET, situmapikey: SITUM_APIKEY, situmemail: SITUM_EMAIL, situmpass: SITUM_PASS]
+</code></pre>
+<h3>Repositories</h3>
+<p>This SDK is distributed via JitPack. You need to set the repository in the <code>build.gradle</code> file:</p>
+<pre><code class="lang-gradle">repositories{
+    maven {
+        url 'https://jitpack.io'
+        credentials { username JITPACK_TOKEN }
+    }
+}
+</code></pre>
+<h3>Dependency</h3>
+<p>In the <code>build.gradle</code> file we need to add the SDK as dependency. Also set the group in this file.</p>
+<pre><code class="lang-gradle">dependencies{
+    implementation 'com.github.GeographicaGS.Tempo:temposdk:1.1.0e'
+
+    // We also need to add SITUM SDK in case we want to use their indoor location
+    implementation('es.situm:situm-sdk:2.39.0@aar') {
+        transitive = true
+    }
+}
+
+group = 'com.github.GeographicaGS'
+</code></pre>
+<h3>Permissions</h3>
+<p>In the <code>AndroidManifest.xml</code> file we need the user-permissions next:</p>
+<pre><code class="lang-xml">&lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+&lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/&gt;
+&lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/&gt;
+</code></pre>
+<p>Then the host app should manage granted permissions in order to provide the needed ones to TempoSDK.</p>
+<h2>Use</h2>
+<h3>Instance principal object</h3>
+<p>We need to create an instance of TempoFragment and integrate it into our layout:</p>
+<pre><code class="lang-kotlin">import gs.geographica.temposdk.TempoSDK
+import gs.geographica.temposdk.mainview.TempoFragment
+
+tempoSDK = TempoSDK(this)
+tempoFragment = tempoSDK.Builder()
+            .setCartoLicense(CARTO_LICENSE)
+            .setUserId(eciUserName)
+            .setUserType(1)
+            .setTempoSecret(TEMPO_API_SECRET)
+            .setSitumUser(SITUM_EMAIL)
+            .setSitumLicense(SITUM_API_KEY)
+            .build()
+
+if (!tempoMapFragment.isAdded) {
+    supportFragmentManager
+        .beginTransaction()
+        .add(R.id.content_frame, tempoMapFragment, "Map")
+        .commit()
+}
+</code></pre>
+<p>Once tempoFragment is initialized, we can load a center by its center_id:</p>
+<pre><code class="lang-kotlin">const val CASTELLANA_CENTER_CODE = 95
+tempoSDK.drawCenter(CASTELLANA_CENTER_CODE)
+</code></pre>
+<p>For push notifications, we need to set the Firebase token and Advertising ID to TempoSDK:</p>
+<pre><code class="lang-kotlin">tempoSDK.setFirebaseToken(token, advertisingID)
+</code></pre>
+<p>Also, we need to share each needed notification received in the host application with TempoSDK:</p>
+<pre><code class="lang-kotlin">private val messageReceiver = object : BroadcastReceiver() {
+    fun register(context: Context, filter: IntentFilter) {...}
+    fun unregister(context: Context) {...}
+    override fun onReceive(context: Context, intent: Intent) {
+        val stringMessage = intent.getStringExtra("messaging")
+        val requestMesagingNotif = Gson().fromJson(stringMessage, RequestMessagingNotif::class.java)
+        tempoSDK.setRequestAssistantNotif(requestMesagingNotif)
+    }
+}
+</code></pre>
+<p>You can find more information in the demo source code.</p>
+<h3>Packages</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="tempo-android-dokka/index.html">temposdk</a></p>
+</td>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,1 +1,1 @@
-sourceset_dependencies='{":temposdk:dokkaHtml/androidTestRelease":[],":temposdk:dokkaHtml/debug":[],":temposdk:dokkaHtml/main":[],":temposdk:dokkaHtml/release":[]}'
+sourceset_dependencies='{":temposdk:dokkaHtml/androidTestRelease":[],":temposdk:dokkaHtml/androidTestStaging":[],":temposdk:dokkaHtml/debug":[],":temposdk:dokkaHtml/main":[],":temposdk:dokkaHtml/release":[],":temposdk:dokkaHtml/staging":[]}'
